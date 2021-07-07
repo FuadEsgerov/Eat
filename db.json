@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Margarita Pizza",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra velit erat. Praesent consequat nec ipsum non volutpat. Morbi vel ex auctor, porttitor felis in, accumsan urna. Duis hendrerit est ut ligula consequat vestibulum. Pellentesque ultrices semper nunc eu mattis. Sed vehicula leo sit amet mi tincidunt, sit amet interdum nulla sollicitudin",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza-500x500.jpg",
+      "price": 23
+    },
+    {
+      "id": 2,
+      "name": "Pancakes",
+      "description": "Praesent dictum laoreet nibh nec volutpat. Etiam vel arcu lectus. Maecenas tellus eros, euismod a urna eget, interdum posuere dolor. Vivamus eleifend convallis nisi vel blandit. Praesent sed tellus vitae dui viverra faucibus porttitor ut dui. Praesent id metus ut augue tincidunt porttitor ut ac nisl. Etiam ac porttitor massa,",
+      "imageUrl": "https://www.inspiredtaste.net/wp-content/uploads/2016/07/Pancake-Recipe-2-1200.jpg",
+      "price": 19
+    },
+    {
+      "id": 3,
+      "name": "Club Sandwich",
+      "description": "In hac habitasse platea dictumst. Integer volutpat fringilla elit, sit amet molestie neque volutpat a. Ut quis ligula libero. Suspendisse justo ipsum, efficitur non lobortis sed",
+      "imageUrl": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
+      "price": 39
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 3,
+        "name": "Club Sandwich",
+        "description": "In hac habitasse platea dictumst. Integer volutpat fringilla elit, sit amet molestie neque volutpat a. Ut quis ligula libero. Suspendisse justo ipsum, efficitur non lobortis sed",
+        "imageUrl": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
+        "price": 39
+      },
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

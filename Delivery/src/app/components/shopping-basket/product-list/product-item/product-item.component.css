@@ -1,0 +1,27 @@
+.card{display: -webkit-inline-box;
+background: #FFFFFF;
+box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+position: relative;
+
+}
+button{
+    background: #2F8BE6;
+border: 1px solid #2F8BE6;
+box-sizing: border-box;
+border-radius: 29px;
+top: 89px;
+left: 64px;
+margin: 50px;
+}
+.detail{
+    position: absolute;
+    padding: 10px;
+}
+.card-body{
+    width: 250px;
+}
+img{
+    width: 256px;
+    height: 256px;
+}

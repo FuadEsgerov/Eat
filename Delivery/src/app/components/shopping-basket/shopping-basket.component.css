@@ -1,0 +1,19 @@
+h3{
+left: 9.31%;
+right: 84.44%;
+top: 1.96%;
+bottom: 95.84%;
+padding: 10px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 27px;
+
+color: rgba(33, 33, 33, 0.75);
+}
+.context{
+    background: #E5E5E5;
+    padding-top:50px;
+}

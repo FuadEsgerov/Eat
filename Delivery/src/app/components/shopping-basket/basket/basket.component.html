@@ -1,0 +1,17 @@
+<div *ngIf="basketItems.length === 0" class="alert alert-info">Your Cart is Empty.</div>
+<div class="basket" *ngIf="basketItems.length > 0">
+  <p class="title">Basket</p>
+  <ul  class="list-group">
+
+    <li class="list-group-item" *ngFor="let item of basketItems">
+      <app-basket-item [cartItem]="item"></app-basket-item>
+    </li>
+  
+    <li class="list-group-item">
+      <p class="total">Total</p> <span>{{ cartTotal | currency:'USD' }}</span> 
+    </li>
+  </ul>
+  <div class="button">
+    <button class="btn btn-sm btn-primary product-btn">Check Out</button>
+  </div>
+</div>

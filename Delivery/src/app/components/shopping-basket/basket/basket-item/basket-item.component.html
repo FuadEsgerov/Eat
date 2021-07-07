@@ -1,0 +1,6 @@
+<div> 
+  <i style="cursor: pointer;"  (click)="handleRemoveFromBasket()" class="float-right" >X</i>
+     <p class="productName">{{ cartItem.productName }}    <span>x{{ cartItem.qty }}</span> </p> 
+     <p >{{ (cartItem.qty * cartItem.price) | currency:'USD' }}</p>
+   </div>
+   
